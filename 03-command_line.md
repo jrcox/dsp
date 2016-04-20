@@ -19,7 +19,8 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > cd:  change directory
 > > ls:  list everything within current directory
 > > rmdir:  remove directory
-> > pushd:  takes current directory and pushes into a list for later, then changes to another directory ("save where i am and go to > > > >  this new place")
+> > pushd:  takes current directory and pushes into a list for later, then changes to another directory ("save where i am and go to 
+> >  this new place")
 > > popd:  takes last directory you pushed and "pops" it off, taking you back to where you were
 > > touch:  makes an empty file
 > > cp:  copy a file
