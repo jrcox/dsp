@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> After a lot of research and deliberation, I decided to go with vim.  I downloaded both Emacs and vim and tried the tutorials and felt more comfortable in vim.  I also like the idea of eventually customizing vim enough to use as a Python IDE.  
 
 ---
 
