@@ -12,8 +12,8 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > grep:  search for a specific string within a file
-    find:  looks for a file 
+> > grep:  search for a specific string within a file /n
+    find:  looks for a file /n
     pwd: print working directory, tell you where you are
     mkdir:  make a new directory
     cd:  change directory
