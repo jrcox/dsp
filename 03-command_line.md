@@ -12,8 +12,8 @@ these in a couple of hours.
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do, focused on things that are new, interesting, or otherwise worth remembering.
 
-> > grep:  search for a specific string within a file /n
-    find:  looks for a file /n
+> > grep:  search for a specific string within a file
+    find:  looks for a file
     pwd: print working directory, tell you where you are
     mkdir:  make a new directory
     cd:  change directory
@@ -61,7 +61,6 @@ What does `ls` do? What do `ls -a`, `ls -l`, and `ls -lh` do? What combinations 
 What does `xargs` do? Give an example of how to use it.
 
 > > 'xargs' is used to build and execute command lines from standard input.  It can be used to remove or do some operation on a long list of file names which were produced by using the find and/or grep commands.
-
 Example:   find ./documents -print | xargs grep "data"   Will find files in the documents folder, pipe thorugh to the grep command to look for files with the word "data" within them.
 
 ---
