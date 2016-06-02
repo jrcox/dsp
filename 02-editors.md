@@ -10,6 +10,7 @@ It may sound silly, but [make sure](http://www.typingtest.com/) you know how to 
 
 A lot of your work will be done in a text editor. You have to know how to use your editor. Any editor will work, but knowing a powerful editor well will make you faster, more comfortable, and more effective.
 
+---
 
 ### Terminal Editor
 
@@ -27,16 +28,12 @@ If you intend to use a graphical editor that doesn't run in a terminal, nano mig
 
 Both Emacs and vim have built-in interactive tutorials that you can try.
 
----
 
 What terminal editor will you use? How did you make your decision?
 
->> After a lot of research and deliberation, I decided to go with vim.  I downloaded both Emacs and vim and tried the tutorials and felt more comfortable in vim.  I also like the idea of eventually customizing vim enough to use as a Python IDE.  
 
 ---
 
-
-### Graphical Editor
 
 You will probably spend most of your time with access to a graphical interface, where you have more choices in editors and integrated development environments.
 
@@ -48,6 +45,7 @@ Popular editors and IDEs include:
  * Atom
  * Spyder
  * PyCharm
+ * [Rodeo](http://blog.yhat.com/posts/introducing-rodeo.html)
 
 If you choose Emacs or vim, you will have essentially the same editor experience across graphical and non-graphical environments, which is nice. It's also nice to be able to work without ever having to use a mouse. Emacs and vim have somewhat steep learning curves, but they give you the ability to customize your environment quite a lot to make it exactly what you want.
 
@@ -59,8 +57,17 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 ---
 
+###Q1. Terminal Editor
+
+What terminal editor will you use? How did you make your decision?
+
+>> REPLACE THIS TEXT WITH YOUR RESPONSE
+
+--
+
+###Q2. Graphical Editor
+
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
 >> REPLACE THIS TEXT WITH YOUR RESPONSE
 
----
