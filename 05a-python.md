@@ -57,9 +57,9 @@ Explain list comprehensions. Give examples and show equivalents with `map` and `
     If we wanted to do this with map and lambda it would look like:  
     ```maplist = map(lambda x: x**2, range(6))```  
     If we wanted to do this with filter it would look like:  
-    ```filterlist = filter(lambda x: x < 7, maplist)``` 
+    ```filterlist = filter(lambda x: x < 7, maplist)```  
     My understanding is that list comprehension is the most clear and in some cases the fastest way to make a list.  
-      
+  
     Set comprehension is similar, except that now you're making a set and not a list, but still using the same natural language to make the set.  
     ``` sc = {x**2 for x in range(6)}```  
     Dictinary comprehension follows the same idea:  
