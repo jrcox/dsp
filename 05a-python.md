@@ -26,8 +26,8 @@ How are Python lists and sets similar and different? Give examples of using both
 
 >> Lists and sets are similar in that they are both a sequence of values, but a set contains unique values, none of them can be the same.  It refers to a set in the mathematical sense, which refers to the unique values in a space.  For example:  
     ``` 
-    list1 = ['cat', 'dog', 'mouse', 'cat', 'horse', 'dog', 'cow', 'dog']
-    set1 = ('cat', 'dog', 'mouse', 'horse', 'cow') 
+    list1 = ['cat', 'dog', 'mouse', 'cat', 'horse', 'dog', 'cow', 'dog']  
+    set1 = ('cat', 'dog', 'mouse', 'horse', 'cow')  
     ```
     Performance for finding an element is faster in a set than a list because a set is hashable and so each value is unique and can be readily called, whereas in a list every element needs to be inspected.
     
@@ -38,7 +38,13 @@ How are Python lists and sets similar and different? Give examples of using both
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Lambda is an unbound anonymous function that does not use ```def```.  It is useful in writing simpler code, especially in instances when a function will only be called once.  A lambda function is typically written on only one line, making for cleaner code.  
+An example of lambda in the key argument for sorted:  
+    ```sorted(['Apple', 'banana', 'donut', 'Carrot'], key = lambda word: word.upper()) ```  
+Would return:  
+    ```['Apple', 'banana', 'Carrot', 'donut']```  
+    
+        
 
 ---
 
@@ -46,7 +52,18 @@ Describe Python's `lambda`. What is it, and what is it used for? Give at least o
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehension is a way to construct a list using natural language.  For example, if we wanted to construct a list that was the square of all numbers 0 - 5:  
+    ``` lc = [x**2 for x in range(6)]```  
+    If we wanted to do this with map and lambda it would look like: 
+    ```maplist = map(lambda x: x**2, range(6))```  
+    If we wanted to do this with filter it would look like:  
+    ```filterlist = filter(lambda x: x < 7, maplist)``` 
+    My understanding is that list comprehension is the most clear and in some cases the fastest way to make a list.  
+    
+    Set comprehension is similar, except that now you're making a set and not a list, but still using the same natural language to make the set.  
+    ``` sc = {x**2 for x in range(6)}```  
+    Dictinary comprehension follows the same idea:  
+    ``` dc = {x:x**2 for x in range(6)}```
 
 ---
 
