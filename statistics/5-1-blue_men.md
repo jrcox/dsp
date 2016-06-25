@@ -1,6 +1,7 @@
 [Think Stats Chapter 5 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2006.html#toc50) (blue men)
 
->>  Finding percentage of population betwnee 5'10 and 6'1.
+>>  Finding percentage of population betwnee 5'10 and 6'1:
+    
 ```python
 
 import scipy.stats
