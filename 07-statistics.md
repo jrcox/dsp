@@ -86,9 +86,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 >P(t|b) = 1/4  
 >
 >Want to determine P(a|t), or probability Elvis was identical given that he was a twin.  
->P(a|t) = (P(t|a) * P(a) / (P(t|a) * P(a)) + (P(t|b) * P(b))
->P(a|t) = (1/2 * 1/300) / ((1/2 * 1/300) + (1/4 * 1/125)) = 5/11 = 66%
->There is a 66% probability Elvis was an identical twin.
+>P(a|t) = (P(t|a) * P(a) / (P(t|a) * P(a)) + (P(t|b) * P(b))  
+>P(a|t) = (1/2 * 1/300) / ((1/2 * 1/300) + (1/4 * 1/125)) = 5/11 = 66%  
+>There is a 66% probability Elvis was an identical twin.  
 
 ---
 
