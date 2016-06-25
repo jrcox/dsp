@@ -95,8 +95,7 @@ There is a 66% probability Elvis was an identical twin.
 ###Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> Frequentist and Bayesian statistics differ in their use of probability.  Bayesian statistics use existing knowledge to call upon to create a prior distribution, a distribution upon which probability of an event is baed on.  This distribution can then be continuously be updated based on the outcomes of experiments so that all probabilities are based upon the most recent knowledge of an event.  
-Frequentist statistics do not consider prior distributions and is instead focused more on the proportion of the data.  Parameters are treated as having a fixed and true value (that is unknown), and so no probability can be assigned to it.  
+>> Frequentist and Bayesian statistics differ in their use of probability.  Bayesian statistics use existing knowledge to call upon to create a prior distribution, a distribution upon which probability of an event is baed on.  This distribution can then be continuously be updated based on the outcomes of experiments so that all probabilities are based upon the most recent knowledge of an event.  Frequentist statistics do not consider prior distributions and is instead focused more on the proportion of the data.  Parameters are treated as having a fixed and true value (that is unknown), and so no probability can be assigned to it.  
 ---
 
 ###Optional Exercises
