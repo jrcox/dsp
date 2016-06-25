@@ -2,7 +2,7 @@
 
 >>  Below is code and process for answering question 2.4:
     
-```
+```python
 #first import data necessary
 #make data set of pregnancy data
 preg = nsfg.ReadFemPreg()

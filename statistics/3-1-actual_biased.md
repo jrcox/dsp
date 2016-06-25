@@ -22,7 +22,7 @@ pmfnumkdhh.mean()
 
 The mean number of children under 18 in a household is 1.024
 
-```
+```python
 
 #look at biased pmf
 def BiasPmf(pmf, label = ''):
