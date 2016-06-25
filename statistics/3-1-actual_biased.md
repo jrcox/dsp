@@ -2,7 +2,7 @@
 
 >> See below for code and answers:
 
-```
+```python
 
 import matplotlib
 import thinkstats2
